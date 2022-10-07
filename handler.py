@@ -127,11 +127,11 @@ def predict(event, context):
     """
     try:
         param = get_param_from_url(event, 'x')
-        consumer_key = 'wJfTjhAhS1F2eac84zBl0VgZ0'
-        consumer_secret = 'IuQLvzWrk1fgetrRO9xTKLwZp1JaL4KpmYcaPtbmPJkEMTIfXc'
+        consumer_key = ''
+        consumer_secret = ''
 
-        access_token = '1459989746-mGMuvbiltJalHzwzaGPXhf37lTlXnlb1H217ij1'
-        access_token_secret = 'LCRnyj4Cuwr5BSgJA6zlCuKAc5IA8TMHl4HKdheUdMp06'
+        access_token = ''
+        access_token_secret = ''
 
         auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
         auth.set_access_token(access_token, access_token_secret)
